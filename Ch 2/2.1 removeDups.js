@@ -1,3 +1,11 @@
+/*
+
+CTCI - 2.1
+
+Write code to remove duplicates from an unsorted linked list
+
+*/
+
 class LinkedList {
     constructor(value) {
         this.value = value;
@@ -53,6 +61,7 @@ d.next = e;
 
 new LinkedList().removeDups(a);
 new LinkedList().printLinkedList(a);
+// console.log(new LinkedList(a))
 
 var f = new LinkedList('f');
 var g = new LinkedList('g');

@@ -193,8 +193,8 @@ console.log(ll.size_of_list());
 ll.add(20); 
 ll.add(30); 
 ll.add(40); 
-ll.add(50); 
-  
+ll.add(50);
+
 // returns 10 20 30 40 50 
 ll.printList(); 
   
